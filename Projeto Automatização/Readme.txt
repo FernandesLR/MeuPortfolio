@@ -1,4 +1,5 @@
-Sistema simple de Automatização em Python utilizando a biblioteca selenium.
+Sistema simples de Automatização de cadastro de dados, feito no Python utilizando a biblioteca selenium.
+
 Como funciona: basicamente o sistema pede o nome da planilha, o nome da folha e quantas linhas você deseja que o programa cadastre, após isso o sistema abre uma nova guia no seu navegador com um site específico para cadastrar os dados da planilha.
 
 Como testar: execute o arquivo interface.py
