@@ -1,0 +1,149 @@
+:root{
+    --bg-primary: black;
+    --text-light: white;
+}
+
+header{
+    background-color: var(--bg-primary);
+    color: var(--text-light);
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header nav ul{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 5px 2rem;
+    top: 2px;
+}
+header nav ul li{
+    min-height: fit-content;
+    height: fit-content;
+    padding: 0 0.75rem;
+    font-size: small;
+    cursor: pointer;
+    list-style: none;
+    transition: 200ms ease-in-out;
+}
+header nav ul li:hover{
+    margin-top: -5px;
+    color: rgb(179, 179, 179);
+}
+
+
+
+
+/*Section 1*/
+main section{
+    text-align: center;
+    position: relative;
+}
+main section h1{
+    color: var(--text-light);
+    font-size: 4rem;
+    line-height: 3rem;
+}
+main section h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: gray;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
+main section a{
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: rgb(68, 68, 255);
+}
+main section a:hover{
+    border-bottom: 1px solid blue;
+}
+main section .Shopping_Event{
+    max-width: 100%;
+}
+main section .txt{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+}
+.Shopping_Event img{
+    max-width: 100%;
+}
+
+/*Section 2*/
+
+.Streaming {
+    max-width: fit-content;
+    position: relative; /* Adicione position: relative; para que o z-index funcione */
+}
+
+.Streaming img {
+    max-width: 100%;
+}
+
+.txt2 {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    max-width: 100%;
+    line-height: 10.5;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(241, 206, 206);
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+.Streaming span{
+    color: rgb(196, 171, 171);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+/*Section 3*/
+
+.iPhone14{
+    max-width: 100%;
+}
+.iPhone14 h2{
+    height: 20px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.iPhone14 .txt4{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+.iPhone14 a{
+    padding: 0 5px;
+}
+.iPhone14 img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(211, 185, 185);
+    text-align: justify;
+}
+
+@media(max-width: 758px){
+    header nav{
+        display: none;
+    }
+
+}
